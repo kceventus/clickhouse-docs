@@ -211,7 +211,7 @@ With a **materialized view** the additional table is implicitly created and data
 <img src={require('./images/sparse-primary-indexes-09b.png').default} class="image"/>
 
 
-And the **projection** is the most transparent option because next to automatically keeping the implicitly created (and hidden) additional table in sync with data changes, ClickHouse will automatically chose the most effective table version for queries:
+And the **projection** is the most transparent option because next to automatically keeping the implicitly created (and hidden) additional table in sync with data changes, ClickHouse will automatically choose the most effective table version for queries:
 <img src={require('./images/sparse-primary-indexes-09c.png').default} class="image"/>
 
 In the following we discuss this three options for creating and using multiple primary indexes in more detail and with real examples.
